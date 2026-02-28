@@ -1,0 +1,26 @@
+data/
+*.fastq.gz
+*.fastq
+*.bam
+*.bai
+*.h5
+*.h5ad
+work/
+.nextflow/
+.nextflow.log*
+results/*
+!results/.gitkeep
+*.Rhistory
+*.RData
+*.rds
+.Rproj.user/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+# ArchR Arrow files (large)
+*.arrow
+ArchR_*/
+# SCENIC+ tmp
+tmp/
+loom_files/

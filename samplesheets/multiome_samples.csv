@@ -1,0 +1,7 @@
+sample,rna_fastq_dir,atac_fastq_dir,condition,patient
+PDAC_01,data/PDAC_01/rna,data/PDAC_01/atac,Tumor,P01
+PDAC_02,data/PDAC_02/rna,data/PDAC_02/atac,Tumor,P02
+PDAC_03,data/PDAC_03/rna,data/PDAC_03/atac,Tumor,P03
+PDAC_04,data/PDAC_04/rna,data/PDAC_04/atac,Tumor,P04
+NORMAL_01,data/NORM_01/rna,data/NORM_01/atac,Normal,N01
+NORMAL_02,data/NORM_02/rna,data/NORM_02/atac,Normal,N02
