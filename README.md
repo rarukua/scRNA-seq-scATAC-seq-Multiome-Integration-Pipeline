@@ -136,7 +136,7 @@ multiome-pdac-pipeline/
 
 | Dataset | Source | Cells | Description |
 |---------|--------|-------|-------------|
-| PDAC 10x Multiome | GEO GSE197177 (Raghavan et al. 2021 *Cell*) | ~30,000 | Simultaneous RNA + ATAC, 8 PDAC patients + normal pancreas |
+| PDAC 10x Multiome | GEO GSE197177 | ~30,000 | Simultaneous RNA + ATAC, 8 PDAC patients + normal pancreas |
 | Bulk ATAC (cross-modal) | This repo: atac-luad-pipeline | — | Used for cross-cancer chromatin comparison |
 | WGBS cfDNA (cross-modal) | This repo: cfdna-multimodal-pipeline | — | CRC methylation at shared loci |
 
@@ -184,10 +184,10 @@ Rscript downstream/R/08_cross_modal.R
 
 ## References
 
-1. Raghavan S et al. (2021) Microenvironment drives cell state, plasticity and drug response in PDAC. *Cell* 184:6119 — **Dataset used**
-2. Granja JM et al. (2021) ArchR. *Nat Genet* 53:403 — scATAC framework
-3. Hao Y et al. (2021) Seurat v4/v5. *Cell* 184:3573 — RNA framework + WNN
-4. Stuart T et al. (2021) Signac. *Nat Methods* 18:1333 — scATAC + WNN in R
-5. Bravo González-Blas C et al. (2023) SCENIC+. *Nat Methods* 20:1355 — TF regulon GRN
+1. Raghavan S et al. (2021) Microenvironment drives cell state, plasticity and drug response in PDAC. *Cell* — **Dataset used**
+2. Granja JM et al. (2021) ArchR. *Nat Genet* — scATAC framework
+3. Hao Y et al. (2021) Seurat v4/v5. *Cell* — RNA framework + WNN
+4. Stuart T et al. (2021) Signac. *Nat Methods* — scATAC + WNN in R
+5. Bravo González-Blas C et al. (2023) SCENIC+. *Nat Methods* — TF regulon GRN
 6. Trapnell C et al. (2014) Monocle. *Nat Biotechnol* — Trajectory analysis
-7. Jin S et al. (2021) CellChat. *Nat Commun* 12:1088 — Cell-cell communication
+7. Jin S et al. (2021) CellChat. *Nat Commun* — Cell-cell communication
