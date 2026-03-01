@@ -136,7 +136,7 @@ multiome-pdac-pipeline/
 
 | Dataset | Source | Cells | Description |
 |---------|--------|-------|-------------|
-| PDAC 10x Multiome | GEO GSE197177 | ~30,000 | Simultaneous RNA + ATAC, 8 PDAC patients + normal pancreas |
+| PDAC 10x Multiome | GEO GSE131886 | ~30,000 | Simultaneous RNA + ATAC, 8 PDAC patients + normal pancreas |
 | Bulk ATAC (cross-modal) | This repo: atac-luad-pipeline | — | Used for cross-cancer chromatin comparison |
 | WGBS cfDNA (cross-modal) | This repo: cfdna-multimodal-pipeline | — | CRC methylation at shared loci |
 
@@ -184,7 +184,7 @@ Rscript downstream/R/08_cross_modal.R
 
 ## References
 
-1. Raghavan S et al. (2021) Microenvironment drives cell state, plasticity and drug response in PDAC. *Cell* — **Dataset used**
+1. Raghavan S et al. (2021) Microenvironment drives cell state, plasticity and drug response in PDAC. *Cell* 
 2. Granja JM et al. (2021) ArchR. *Nat Genet* — scATAC framework
 3. Hao Y et al. (2021) Seurat v4/v5. *Cell* — RNA framework + WNN
 4. Stuart T et al. (2021) Signac. *Nat Methods* — scATAC + WNN in R
