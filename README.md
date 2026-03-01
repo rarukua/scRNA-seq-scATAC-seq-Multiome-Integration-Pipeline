@@ -136,7 +136,7 @@ multiome-pdac-pipeline/
 
 | Dataset | Source | Cells | Description |
 |---------|--------|-------|-------------|
-| PDAC 10x Multiome | GEO GSE131886 | ~30,000 | Simultaneous RNA + ATAC, 8 PDAC patients + normal pancreas |
+| PDAC 10x Multiome | GEO GSE131886 | ~30,000 |  |
 | Bulk ATAC (cross-modal) | This repo: atac-luad-pipeline | — | Used for cross-cancer chromatin comparison |
 | WGBS cfDNA (cross-modal) | This repo: cfdna-multimodal-pipeline | — | CRC methylation at shared loci |
 
